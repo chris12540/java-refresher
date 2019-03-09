@@ -9,15 +9,7 @@ package section6;
 public class Exercise1 {
 
 	public static void main(String[] args) {
-		String name = "Roger Williams";
 		
-		String[] names = name.split(" ");
-		
-		StringBuilder builder = new StringBuilder(names[0]);
-		
-		builder.append(" Federer");
-		
-		System.out.println(builder.toString());
 	}
 
 }

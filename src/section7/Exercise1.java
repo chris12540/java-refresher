@@ -11,23 +11,10 @@ public class Exercise1 {
 
 	public static void main(String[] args) {
 		
-		Calculator calc = new Calculator();
-		System.out.println(calc.add(4, 5));
-		
-		System.out.println(calc.multiply(4, 5));
-
 	}
 
 }
 
 class Calculator {
-	
-	int add(int x, int y) {
-		return x+y;
-	}
-	
-	public int multiply(int x, int y) {
-		return x*y;
-	}
 
 }
